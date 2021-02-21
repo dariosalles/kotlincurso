@@ -1,9 +1,9 @@
 package br.com.dsxweb.digionebank
 
-open class Pessoa (
+abstract class Pessoa (
 
-    var nome: String,
-    var cpf: String,
+    val nome: String,
+    val cpf: String,
 
 
 )
